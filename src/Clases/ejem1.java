@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class ejem1 {
     public static void main(String[] args) {
 
-            Scanner scan = new Scanner(System.in);
+            Scanner teclado = new Scanner(System.in);
             int values[], tamanio;
             System.out.println("Tamaño del arreglo: ");
-            tamanio = scan.nextInt();
+            tamanio = teclado.nextInt();
             values = new int[tamanio];
             for (int i = 0; i < values.length; i++) {
                 values[i] = (int) (Math.random() * 100);
@@ -26,8 +26,6 @@ public class ejem1 {
                     }
                 }
             }
-
-
         }
     }
 
