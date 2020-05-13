@@ -2,7 +2,7 @@ package Clases;
 
 import java.util.Scanner;
 
-public class Busqueda1 {
+public class busqueda1 {
     public static void main(String[] args) {
 
             Scanner teclado = new Scanner(System.in);
